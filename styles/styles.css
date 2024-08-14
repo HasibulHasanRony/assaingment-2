@@ -175,6 +175,46 @@ nav ul li a{
     border-radius: 20px;
 }
 
+/* Bmi style */
+
+.bmi-calculator{
+    background-color: black;
+
+}
+.bmi-title p, h2{
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.background-color{
+    background-color: rgb(34, 34, 34);
+}
+
+.bmi-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table{
+    margin: 20px 0;
+}
+
+
+
+table td, th{
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.bmi-form{
+    
+}
+
 /* our team section */
 .our-team{
     background-color: rgba(0, 0, 0, 1);
