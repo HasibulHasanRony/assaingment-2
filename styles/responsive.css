@@ -1,0 +1,55 @@
+@media screen and (max-width: 576px) {
+    .navbar-link{
+        display: none;
+    }
+
+    .fa-bars{
+        display: block;
+        color: white;
+    }
+    .banner, .container-run{
+        flex-direction: column;
+    }
+    .change-your-habbit{
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+    .habbit-img-container{
+        flex-direction: column;
+    }
+
+    .container-run{
+        width: 100%;
+    }
+
+    .run-mile-title, .run-mile-img{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .button-div{
+    padding-left: 150px;
+    padding-top: 20px;
+    }
+
+    .run-mile-img img{
+        width: 100%;
+    }
+
+    .our-team-img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-container{
+        flex-direction: column;
+        justify-content: none;
+        gap: 30px;
+    }
+    .fitness, .getstarted-1, .getstarted-2{
+        margin-left: -100px;
+    }
+    .fitness, .getstarted-1, .getstarted-2, p{
+        padding-left: -200px;
+        text-align: left;
+    }
+}
