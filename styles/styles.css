@@ -219,10 +219,22 @@ table td, th{
     margin-top: 10px;
 }
 
+::placeholder{
+    color: #FFFFFF;
+}
+
 .bmi-form form input, select{
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 10px;
     border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #FFFFFF;
+
+}
+
+.bmi-form p{
+    padding: 10px 0;
+    color: #FFFFFF;
 }
 
 /* our team section */
