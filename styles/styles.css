@@ -210,9 +210,19 @@ table td, th{
     text-align: center;
     padding: 15px 20px;
 }
+.form-inputs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.select-div{
+    margin-top: 10px;
+}
 
-.bmi-form{
-    
+.bmi-form form input, select{
+    width: 100%;
+    padding: 20px 0;
+    border-radius: 8px;
 }
 
 /* our team section */
