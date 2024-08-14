@@ -199,6 +199,10 @@ nav ul li a{
     align-items: center;
 }
 
+.bmi-form, .bmi-table{
+    width: 49%;
+}
+
 table{
     margin: 20px 0;
 }
